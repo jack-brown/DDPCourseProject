@@ -7,6 +7,8 @@ highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [shiny, interactive, bootstrap ]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, selfcontained, draft}
+url         :
+    apps    : ./apps
 knit        : slidify::knit2slides
 ext_widgets: {rCharts: [libraries/nvd3]}
 ---
