@@ -6,7 +6,7 @@ framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [shiny, interactive, bootstrap ]            # {mathjax, quiz, bootstrap}
-mode        : standalone # {standalone, selfcontained, draft}
+mode        : selfcontained # {standalone, selfcontained, draft}
 knit        : slidify::knit2slides
 ext_widgets: {rCharts: [libraries/nvd3]}
 ---
