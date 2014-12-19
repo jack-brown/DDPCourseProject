@@ -85,10 +85,10 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
   </div>
   <div class="span8">
     <h3>You have selected the following days:</h3>
-    <h4 id="text1" class="shiny-html-output nvd3"></h4>
+    <h4 id="text1" class="shiny-html-output"></h4>
     <br/>
     <h3>The mean of the steps based on days selected is:</h3>
-    <h4 id="text2" class="shiny-html-output nvd3"></h4>
+    <h4 id="text2" class="shiny-html-output"></h4>
   </div>
 </div>
 

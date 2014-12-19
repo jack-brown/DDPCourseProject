@@ -65,10 +65,10 @@ slidifyUI(
     ),
     mainPanel(
         tags$h3('You have selected the following days:'),
-        tags$h4(id = 'text1', class = 'shiny-html-output nvd3'),
+        tags$h4(id = 'text1', class = 'shiny-html-output'),
         tags$br(),
         tags$h3('The mean of the steps based on days selected is:'),
-        tags$h4(id = 'text2', class = 'shiny-html-output nvd3')
+        tags$h4(id = 'text2', class = 'shiny-html-output')
         )
 )
 ```
