@@ -65,7 +65,7 @@ colnames(totalStepsPerDay)[3] <- c('steps')
 totalStepsPerDay$DayOfWeek <- as.character(totalStepsPerDay$DayOfWeek)
 
 #plot a histogram of the total steps per day
-hist(x = totalStepsPerDay$steps, main = 'Total Steps Per Day', xlab = '', col = 'red')
+hist(x = totalStepsPerDay$steps, main = 'Total Steps', xlab = '', col = 'red')
 ```
 
 This histogram represents a total of `r sum(totalStepsPerDay$steps, na.rm = TRUE)` steps.
