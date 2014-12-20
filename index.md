@@ -95,6 +95,12 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
 Note: the overall mean of the steps taken is calculated based on what days are selected, too.
 
 ---
+
+## Shiny App Version
+
+<!--html_preserve--><iframe src="app0801f76336cb6c17bf347631dcbc9c7b/?w=&amp;__subapp__=1" width="100%" height="300" class="shiny-frame"></iframe><!--/html_preserve-->
+
+---
     
 ## Example Plot
 
