@@ -55,6 +55,6 @@ Note: the overall mean of the steps taken is calculated based on what days are s
     
 ## Example Plot
 
-![plot of chunk histogram](assets/fig/histogram-1.png) 
-
 This histogram represents a total of 570608 steps.
+
+![plot of chunk histogram](assets/fig/histogram-1.png) 

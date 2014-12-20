@@ -55,6 +55,8 @@ Note: the overall mean of the steps taken is calculated based on what days are s
     
 ## Example Plot
 
+This histogram represents a total of `r sum(totalStepsPerDay$steps, na.rm = TRUE)` steps.
+
 ```{r histogram, echo=FALSE, warning=FALSE, message=FALSE}
 #calculate the total number of steps per day
 totalStepsPerDay <- aggregate(origdata$steps,
@@ -67,5 +69,3 @@ totalStepsPerDay$DayOfWeek <- as.character(totalStepsPerDay$DayOfWeek)
 #plot a histogram of the total steps per day
 hist(x = totalStepsPerDay$steps, main = 'Total Steps', xlab = '', col = 'red')
 ```
-
-This histogram represents a total of `r sum(totalStepsPerDay$steps, na.rm = TRUE)` steps.
