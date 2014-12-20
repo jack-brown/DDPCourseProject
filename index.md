@@ -98,7 +98,7 @@ Note: the overall mean of the steps taken is calculated based on what days are s
 
 ## Shiny App Version
 
-verbatimTextOutput('<iframe src="https://jbrown.shinyapps.io/App-tiny/" style="border: none; width: 300px; height: 500px"></iframe>')
+<iframe src="https://jbrown.shinyapps.io/App-tiny/" style="border: none; width: 600px; height: 400px"></iframe>
 
 
 ---
