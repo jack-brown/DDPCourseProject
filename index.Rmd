@@ -47,7 +47,7 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
 1. Once the app is running, select one of the histograms.
 2. Select one of the line graphs.
 3. Filter the data based on which day or days of the week you would like to explore, as below:
-<iframe src="https://jbrown.shinyapps.io/App-tiny/" style="border: none; width: 800px; height: 400px"></iframe><br>
+<iframe src="https://jbrown.shinyapps.io/App-tiny/" style="border: none; width: 800px; height: 400px"></iframe>
 Note: the overall mean of the steps taken is calculated based on what days are selected, too.
 
 ---
