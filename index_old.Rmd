@@ -79,8 +79,44 @@ Note: the overall mean of the steps taken is calculated based on what days are s
 
 ## Shiny App Version
 
-verbatimTextOutput('<iframe src="https://jbrown.shinyapps.io/App-tiny/" style="border: none; width: 300px; height: 500px"></iframe>')
-
+```{r, echo = FALSE, cache = FALSE, opts.label = 'shiny'}
+shinyApp(
+  
+  ui = fluidPage(
+      sidebarPanel(
+        checkboxGroupInput("days", "Select the days to apply to the plots:",
+                           c("Monday" = "Monday",
+                             "Tuesday" = "Tuesday",
+                             "Wednesday" = "Wednesday",
+                             "Thursday" = "Thursday",
+                             "Friday" = "Friday",
+                             "Saturday" = "Saturday",
+                             "Sunday" = "Sunday"),
+                           selected = c('Monday', 'Tuesday', 'Wednesday'
+                                        , 'Thursday', 'Friday', 'Saturday', 'Sunday'))
+        ),
+     mainPanel(
+        tags$h3('You have selected the following days:'),
+        tags$h4(id = 'text1', class = 'shiny-html-output'),
+        tags$br(),
+        tags$h3('The mean of the steps based on days selected is:'),
+        tags$h4(id = 'text2', class = 'shiny-html-output')
+        )
+    ),
+  
+  server = function(input, output) {
+   output$text1 <- renderText({
+         input$days
+        })
+    
+    output$text2 <- renderText({
+       mean(origdata$steps[origdata$DayOfWeek %in% input$days], na.rm = TRUE)
+    })
+    },
+  
+    options = list(height = 300)
+)
+```
 
 ---
     
