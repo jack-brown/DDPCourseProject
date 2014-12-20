@@ -48,6 +48,7 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
 2. Select one of the line graphs.
 3. Filter the data based on which day or days of the week you would like to explore, as below:
 <iframe src="https://jbrown.shinyapps.io/App-tiny/" style="border: none; width: 800px; height: 400px"></iframe>
+
 Note: the overall mean of the steps taken is calculated based on what days are selected, too.
 
 ---
@@ -56,3 +57,4 @@ Note: the overall mean of the steps taken is calculated based on what days are s
 
 ![plot of chunk histogram](assets/fig/histogram-1.png) 
 
+This histogram represents a total of 570608 steps.
