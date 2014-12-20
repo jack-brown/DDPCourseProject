@@ -39,69 +39,16 @@ The variables included in this dataset are:
 The dataset is stored in a comma-separated-value (CSV) file and there are a total of 17,568 observations in this dataset.
 
 
----
-    
-## How it works
-    
-1. Once the app is running, select one of the histograms.
-2. Select one of the line graphs.
-3. Filter the data based on which day or days of the week you would like to explore, as below:
-    
-<div class="row-fluid">
-  <div class="span4">
-    <form class="well">
-      <div id="days" class="control-group shiny-input-checkboxgroup">
-        <label class="control-label" for="days">Select the days to apply to the plots:</label>
-        <label class="checkbox ">
-          <input type="checkbox" name="days" id="days1" value="Monday" checked="checked"/>
-          <span>Monday</span>
-        </label>
-        <label class="checkbox ">
-          <input type="checkbox" name="days" id="days2" value="Tuesday" checked="checked"/>
-          <span>Tuesday</span>
-        </label>
-        <label class="checkbox ">
-          <input type="checkbox" name="days" id="days3" value="Wednesday" checked="checked"/>
-          <span>Wednesday</span>
-        </label>
-        <label class="checkbox ">
-          <input type="checkbox" name="days" id="days4" value="Thursday" checked="checked"/>
-          <span>Thursday</span>
-        </label>
-        <label class="checkbox ">
-          <input type="checkbox" name="days" id="days5" value="Friday" checked="checked"/>
-          <span>Friday</span>
-        </label>
-        <label class="checkbox ">
-          <input type="checkbox" name="days" id="days6" value="Saturday" checked="checked"/>
-          <span>Saturday</span>
-        </label>
-        <label class="checkbox ">
-          <input type="checkbox" name="days" id="days7" value="Sunday" checked="checked"/>
-          <span>Sunday</span>
-        </label>
-      </div>
-    </form>
-  </div>
-  <div class="span8">
-    <h3>You have selected the following days:</h3>
-    <h4 id="text1" class="shiny-html-output"></h4>
-    <br/>
-    <h3>The mean of the steps based on days selected is:</h3>
-    <h4 id="text2" class="shiny-html-output"></h4>
-  </div>
-</div>
-
-Note: the overall mean of the steps taken is calculated based on what days are selected, too.
 
 ---
 
 ## How it works
-
+(Refresh this page)
 1. Once the app is running, select one of the histograms.
 2. Select one of the line graphs.
 3. Filter the data based on which day or days of the week you would like to explore, as below:
 <iframe src="https://jbrown.shinyapps.io/App-tiny/" style="border: none; width: 800px; height: 400px"></iframe>
+
 Note: the overall mean of the steps taken is calculated based on what days are selected, too.
 
 ---
